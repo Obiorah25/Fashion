@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family:"Poppins",  sans-serif  !important;
+}
+
+.navbar{
+background-color: #fff !important;
+}
+.navbar-nav{
+    gap: 30px;
+}
+.nav-link{
+    font-weight: 500 !important;
+    color: #000 !important;
+}
+.nav-btn{
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Hero section style */
+
+.hero-section {
+    margin-top: 100px;
+    background-color: #F4F6F5;
+    padding: 40px 70px 0 70px;
+    border-radius: 50px;
+}
+.hero-text{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 4.5rem;
+}
+
+.l {
+    background-color: #fff;
+padding: 0 100px 0 3px !important;
+rotate: z 1.2deg;
+padding: 0 100px 0 3px !important; 
+}
+
+.u {
+    background-color:#EBD96B;
+    position: absolute;
+    rotate: z 1.2deg;
+    padding: 0 100px 0 3px !important; 
+}
+.hero-img {
+    width: 100%;
+}
+.logos{
+   display: flex;
+   margin-top: 20px;
+   background-color:#EBD96B;
+   padding: 10px;
+   width: 100%;
+   box-shadow: 0px 0px 10px #000;
+   border: 70px;
+}
+.logos img{
+    mix-blend-mode: multiply;
+}
+.icon-1 {
+    margin-right: 90px;
+    margin-left: 160px;
+}
+.icon-2 {
+    margin-right: 130px;
+}
+.icon-3 {
+    margin-right: 100px;
+}
+.icon-4 {
+    margin-right: 100px;
+}
+.icon-5 {
+    margin-right: 100px;
+}
+.icon-6 {
+    margin-right: 100px;
+}
+.new {
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 110px;
+    font-weight: 900;
+}
+.cards {
+    display: flex;
+    margin-left: 120px;          
+}
+.card-1 {
+    margin-right: 120px;
+}
+.card-2 {
+    margin-right: 120px;
+}
+.card-3 {
+    margin-right: 100px;
+}
+.back-girl {
+    display: flex;
+    margin-top: 40px;
+   background: linear-gradient(1.32deg, #E0C340 0.13%, 
+   #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, 
+   #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, 
+   #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, 
+   #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, 
+   #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, 
+   #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, 
+   #F9DF56 97.87%);
+}
+.p-day{
+    margin-left: 200px;
+}
+.girl-1{
+width: 100%;
+}
+.young-text{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.back-card{
+    display: flex;
+    margin-top: 50px;
+}
+.card-4{
+   margin-left: 120px;
+   margin-right: 120px;
+}
+.arrow-item{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.arrow-item-1{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.download {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+
+}
+.phone {
+    margin-left: 190px;
+}
+.fashion{
+    width: 250px;
+    height: 35px;
+}
+.list ul {
+    list-style-type: none;
+}
+.rectangle {
+    display: flex;
+   padding-left: 80px;
+}
+.sec-text {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color:#EBD96B;
+    padding-left: 50px;
+    width: 100%;
+    box-shadow: 0px 0px 10px #000;
+    color: #000000; 
+    font-family: Georgia;
+    text-align: center;
+
+}
+
+.facebook{
+    color: #DFC23E;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.btn-container {
+    margin-left: 500px;
+}
+
+.btn-email {
+    background-color: #fff;
+    margin-right: 850px;
+    border-radius: 10px;
+}
+
+input[type=email] {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-email button {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+/* @media only screen and (max-width:910px){
+    .navbar{}
+} */
